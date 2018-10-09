@@ -197,7 +197,7 @@
         "LuaCoderAssist.format.lineWidth": {
           "type": "integer",
           "default": 120,
-          "description": "Max character in one line."
+          "description": "Max character in one line. [Obsoleted]"
         },
         "LuaCoderAssist.format.indentCount": {
           "type": "integer",
@@ -207,7 +207,17 @@
         "LuaCoderAssist.format.quotemark": {
           "type": "string",
           "default": "single",
-          "description": "String quotation style, can be 'single' or 'double'."
+          "description": "String quotation style, can be 'single' or 'double'. [Obsoleted]"
+        },
+        "LuaCoderAssist.format.useTabs": {
+          "type": "boolean",
+          "default": false,
+          "description": "Use tabs instead of spaces to indent."
+        },
+        "LuaCoderAssist.format.formatComments": {
+          "type": "boolean",
+          "default": false,
+          "description": "Format multi-line comments with indentations."
         },
         "LuaCoderAssist.ldoc.authorInFunctionLevel": {
           "type": "boolean",
